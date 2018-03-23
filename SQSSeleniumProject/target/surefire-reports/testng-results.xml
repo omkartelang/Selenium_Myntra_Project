@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="313213" started-at="2018-02-25T16:26:44Z" finished-at="2018-02-25T16:31:58Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="313213" started-at="2018-02-25T16:26:44Z" finished-at="2018-02-25T16:31:58Z">
+      <class name="com.myntra.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="29942" started-at="2018-02-25T21:56:45Z" finished-at="2018-02-25T21:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="search_ProductItems_by_ProductBrand" duration-ms="6645" started-at="2018-02-25T21:57:15Z" data-provider="dpExcelData" finished-at="2018-02-25T21:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="5304" started-at="2018-02-25T21:57:22Z" finished-at="2018-02-25T21:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="21624" started-at="2018-02-25T21:57:27Z" finished-at="2018-02-25T21:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="search_ProductItems_by_ProductBrand" duration-ms="4688" started-at="2018-02-25T21:57:49Z" data-provider="dpExcelData" finished-at="2018-02-25T21:57:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="3301" started-at="2018-02-25T21:57:54Z" finished-at="2018-02-25T21:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="21887" started-at="2018-02-25T21:57:57Z" finished-at="2018-02-25T21:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="search_ProductItems_by_ProductBrand" duration-ms="1473" started-at="2018-02-25T21:58:19Z" data-provider="dpExcelData" finished-at="2018-02-25T21:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="3574" started-at="2018-02-25T21:58:20Z" finished-at="2018-02-25T21:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="19232" started-at="2018-02-25T21:58:24Z" finished-at="2018-02-25T21:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_partial_ProductBrandName(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="search_ProductItems_by_partial_ProductBrandName" duration-ms="1238" started-at="2018-02-25T21:58:43Z" data-provider="dpExcelData" finished-at="2018-02-25T21:58:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_partial_ProductBrandName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="3863" started-at="2018-02-25T21:58:45Z" finished-at="2018-02-25T21:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.qa.testcases.HomePageTest -->
+      <class name="com.myntra.qa.testcases.WishListPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="setUp" is-config="true" duration-ms="22540" started-at="2018-02-25T21:59:53Z" finished-at="2018-02-25T22:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="remove_Product_Item_From_Wishlist(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="remove_Product_Item_From_Wishlist" duration-ms="27391" started-at="2018-02-25T22:00:15Z" data-provider="dpExcelData" finished-at="2018-02-25T22:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[denim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Kurtas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,Printed Straight Kurta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Solid A-Line Denim Kurta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_Product_Item_From_Wishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="6057" started-at="2018-02-25T22:00:43Z" finished-at="2018-02-25T22:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="setUp" is-config="true" duration-ms="34201" started-at="2018-02-25T22:00:49Z" finished-at="2018-02-25T22:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="add_And_Checkout_Product_Items(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="add_And_Checkout_Product_Items" duration-ms="29803" started-at="2018-02-25T22:01:23Z" data-provider="dpExcelData" finished-at="2018-02-25T22:01:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[denim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Kurtas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Solid A-Line Denim Kurta,Woven Design Straight Kurta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_And_Checkout_Product_Items -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.WishListPageTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="4671" started-at="2018-02-25T22:01:53Z" finished-at="2018-02-25T22:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.qa.testcases.WishListPageTest -->
+      <class name="com.myntra.qa.testcases.ProductListpageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="setUp" is-config="true" duration-ms="20246" started-at="2018-02-25T21:58:49Z" finished-at="2018-02-25T21:59:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_Add_Product_WishList(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="search_Add_Product_WishList" duration-ms="6924" started-at="2018-02-25T21:59:09Z" data-provider="dpExcelData" finished-at="2018-02-25T21:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[woodland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Woodland Belts Men]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Men Genuine Leather Solid Belt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Add_Product_WishList -->
+        <test-method status="PASS" signature="tearDoen()[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="tearDoen" is-config="true" duration-ms="3003" started-at="2018-02-25T21:59:16Z" finished-at="2018-02-25T21:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDoen -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="setUp" is-config="true" duration-ms="20056" started-at="2018-02-25T21:59:19Z" finished-at="2018-02-25T21:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="add_Multiple_Product_To_wishList(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="add_Multiple_Product_To_wishList" duration-ms="10514" started-at="2018-02-25T21:59:39Z" data-provider="dpExcelData" finished-at="2018-02-25T21:59:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[denim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Kurtas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Solid A-Line Denim Kurta,Woven Design Straight Kurta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Multiple_Product_To_wishList -->
+        <test-method status="PASS" signature="tearDoen()[pri:0, instance:com.myntra.qa.testcases.ProductListpageTest@1b604f19]" name="tearDoen" is-config="true" duration-ms="3353" started-at="2018-02-25T21:59:49Z" finished-at="2018-02-25T21:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDoen -->
+      </class> <!-- com.myntra.qa.testcases.ProductListpageTest -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>

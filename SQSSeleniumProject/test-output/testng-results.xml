@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="144399" started-at="2018-02-25T16:20:55Z" finished-at="2018-02-25T16:23:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="144399" started-at="2018-02-25T16:20:55Z" finished-at="2018-02-25T16:23:20Z">
+      <class name="com.myntra.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="44640" started-at="2018-02-25T21:50:57Z" finished-at="2018-02-25T21:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="search_ProductItems_by_ProductBrand" duration-ms="6610" started-at="2018-02-25T21:51:42Z" data-provider="dpExcelData" finished-at="2018-02-25T21:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="tearDown" is-config="true" duration-ms="4482" started-at="2018-02-25T21:51:48Z" finished-at="2018-02-25T21:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="24312" started-at="2018-02-25T21:51:53Z" finished-at="2018-02-25T21:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="search_ProductItems_by_ProductBrand" duration-ms="5192" started-at="2018-02-25T21:52:17Z" data-provider="dpExcelData" finished-at="2018-02-25T21:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="tearDown" is-config="true" duration-ms="2939" started-at="2018-02-25T21:52:22Z" finished-at="2018-02-25T21:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="22198" started-at="2018-02-25T21:52:25Z" finished-at="2018-02-25T21:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_ProductBrand(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="search_ProductItems_by_ProductBrand" duration-ms="1255" started-at="2018-02-25T21:52:47Z" data-provider="dpExcelData" finished-at="2018-02-25T21:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_ProductBrand -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="tearDown" is-config="true" duration-ms="4031" started-at="2018-02-25T21:52:49Z" finished-at="2018-02-25T21:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="22174" started-at="2018-02-25T21:52:53Z" finished-at="2018-02-25T21:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_ProductItems_by_partial_ProductBrandName(java.lang.String, java.lang.String)[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="search_ProductItems_by_partial_ProductBrandName" duration-ms="1165" started-at="2018-02-25T21:53:15Z" data-provider="dpExcelData" finished-at="2018-02-25T21:53:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bata Sandals men]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_ProductItems_by_partial_ProductBrandName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myntra.qa.testcases.HomePageTest@6325a3ee]" name="tearDown" is-config="true" duration-ms="3530" started-at="2018-02-25T21:53:16Z" finished-at="2018-02-25T21:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myntra.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

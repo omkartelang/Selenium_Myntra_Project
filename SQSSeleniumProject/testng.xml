@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="example suite 1" verbose="1" >
+	<listeners>
+        <listener class-name="com.myntra.qa.ExtentReportListener.ExtentReporterNG"/>
+   </listeners>
+  <test name="Regression suite 1" >
+    <classes>
+      <class name="com.myntra.qa.testcases.HomePageTest"/>
+      <class name="com.myntra.qa.testcases.ProductListpageTest"/>
+      <class name="com.myntra.qa.testcases.WishListPageTest"/>
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-example_suite_1">
+              <span class="suite-name border-passed">example suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-example_suite_1">
+                    <span>C:\SeleniumMavenProject\SQSSeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-example_suite_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-example_suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-example_suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-example_suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-example_suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-example_suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-example_suite_1" class="hide-methods passed suite-example_suite_1"> (hide)</a> <!-- hide-methods passed suite-example_suite_1 -->
+                      <a href="#" panel-name="suite-example_suite_1" class="show-methods passed suite-example_suite_1"> (show)</a> <!-- show-methods passed suite-example_suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-example_suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.WishListPageTest" hash-for-method="add_And_Checkout_Product_Items(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)">add_And_Checkout_Product_Items(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.ProductListpageTest" hash-for-method="add_Multiple_Product_To_wishList(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)">add_Multiple_Product_To_wishList(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.WishListPageTest" hash-for-method="remove_Product_Item_From_Wishlist(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,P...)">remove_Product_Item_From_Wishlist(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.ProductListpageTest" hash-for-method="search_Add_Product_WishList(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt)">search_Add_Product_WishList(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.HomePageTest" hash-for-method="search_ProductItems_by_ProductBrand(Bat, Bata Sandals)">search_ProductItems_by_ProductBrand(Bat, Bata Sandals)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.HomePageTest" hash-for-method="search_ProductItems_by_ProductBrand(Bata, Bata Sandals men)">search_ProductItems_by_ProductBrand(Bata, Bata Sandals men)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.HomePageTest" hash-for-method="search_ProductItems_by_ProductBrand(Bata, Bata)">search_ProductItems_by_ProductBrand(Bata, Bata)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="com.myntra.qa.testcases.HomePageTest" hash-for-method="search_ProductItems_by_partial_ProductBrandName(Bata, Bata Sandals men)">search_ProductItems_by_partial_ProductBrandName(Bata, Bata Sandals men)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-example_suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-example_suite_1" class="panel example_suite_1">
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myntra.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_ProductItems_by_ProductBrand(Bat, Bata Sandals)">
+                  </a> <!-- search_ProductItems_by_ProductBrand(Bat, Bata Sandals) -->
+                  <span class="method-name">search_ProductItems_by_ProductBrand</span>
+                  <span class="parameters">(Bat, Bata Sandals)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_ProductItems_by_ProductBrand(Bata, Bata Sandals men)">
+                  </a> <!-- search_ProductItems_by_ProductBrand(Bata, Bata Sandals men) -->
+                  <span class="method-name">search_ProductItems_by_ProductBrand</span>
+                  <span class="parameters">(Bata, Bata Sandals men)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_ProductItems_by_ProductBrand(Bata, Bata)">
+                  </a> <!-- search_ProductItems_by_ProductBrand(Bata, Bata) -->
+                  <span class="method-name">search_ProductItems_by_ProductBrand</span>
+                  <span class="parameters">(Bata, Bata)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_ProductItems_by_partial_ProductBrandName(Bata, Bata Sandals men)">
+                  </a> <!-- search_ProductItems_by_partial_ProductBrandName(Bata, Bata Sandals men) -->
+                  <span class="method-name">search_ProductItems_by_partial_ProductBrandName</span>
+                  <span class="parameters">(Bata, Bata Sandals men)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myntra.qa.testcases.ProductListpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_Multiple_Product_To_wishList(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)">
+                  </a> <!-- add_Multiple_Product_To_wishList(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta) -->
+                  <span class="method-name">add_Multiple_Product_To_wishList</span>
+                  <span class="parameters">(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_Add_Product_WishList(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt)">
+                  </a> <!-- search_Add_Product_WishList(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt) -->
+                  <span class="method-name">search_Add_Product_WishList</span>
+                  <span class="parameters">(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myntra.qa.testcases.WishListPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_And_Checkout_Product_Items(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)">
+                  </a> <!-- add_And_Checkout_Product_Items(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta) -->
+                  <span class="method-name">add_And_Checkout_Product_Items</span>
+                  <span class="parameters">(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="remove_Product_Item_From_Wishlist(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,P...)">
+                  </a> <!-- remove_Product_Item_From_Wishlist(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,P...) -->
+                  <span class="method-name">remove_Product_Item_From_Wishlist</span>
+                  <span class="parameters">(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,Printed Straight Kurta, Solid A-Line Denim Kurta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
+        </div> <!-- panel example_suite_1 -->
+        <div panel-name="test-xml-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\SeleniumMavenProject\SQSSeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;example suite 1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.myntra.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Regression suite 1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.myntra.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.myntra.qa.testcases.ProductListpageTest&quot;/&gt;
+      &lt;class name=&quot;com.myntra.qa.testcases.WishListPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression suite 1 --&gt;
+&lt;/suite&gt; &lt;!-- example suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression suite 1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_example_suite_1');
+function tableData_example_suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'add_And_Checkout_Product_Items')
+data.setCell(0, 2, 'com.myntra.qa.testcases.WishListPageTest')
+data.setCell(0, 3, 29803);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'remove_Product_Item_From_Wishlist')
+data.setCell(1, 2, 'com.myntra.qa.testcases.WishListPageTest')
+data.setCell(1, 3, 27391);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'add_Multiple_Product_To_wishList')
+data.setCell(2, 2, 'com.myntra.qa.testcases.ProductListpageTest')
+data.setCell(2, 3, 10514);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'search_Add_Product_WishList')
+data.setCell(3, 2, 'com.myntra.qa.testcases.ProductListpageTest')
+data.setCell(3, 3, 6924);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'search_ProductItems_by_ProductBrand')
+data.setCell(4, 2, 'com.myntra.qa.testcases.HomePageTest')
+data.setCell(4, 3, 6645);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search_ProductItems_by_ProductBrand')
+data.setCell(5, 2, 'com.myntra.qa.testcases.HomePageTest')
+data.setCell(5, 3, 4688);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'search_ProductItems_by_ProductBrand')
+data.setCell(6, 2, 'com.myntra.qa.testcases.HomePageTest')
+data.setCell(6, 3, 1473);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'search_ProductItems_by_partial_ProductBrandName')
+data.setCell(7, 2, 'com.myntra.qa.testcases.HomePageTest')
+data.setCell(7, 3, 1238);
+window.suiteTableData['example_suite_1']= { tableData: data, tableDiv: 'times-div-example_suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-example_suite_1">
+              </div> <!-- times-div-example_suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for example suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-example_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myntra.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_ProductItems_by_ProductBrand(Bata, Bata)</span>
+                <span class="method-start">29942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_ProductItems_by_ProductBrand(Bat, Bata Sandals)</span>
+                <span class="method-start">63516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">71509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_ProductItems_by_ProductBrand(Bata, Bata Sandals men)</span>
+                <span class="method-start">93396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_ProductItems_by_partial_ProductBrandName(Bata, Bata Sandals men)</span>
+                <span class="method-start">117819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119057 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myntra.qa.testcases.ProductListpageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_Add_Product_WishList(woodland, Woodland Belts Men, Men Genuine Leather Solid Belt)</span>
+                <span class="method-start">143302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDoen</span>
+                <span class="method-start">150226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">153341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">add_Multiple_Product_To_wishList(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</span>
+                <span class="method-start">173397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDoen</span>
+                <span class="method-start">183911 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myntra.qa.testcases.WishListPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">187352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">remove_Product_Item_From_Wishlist(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta,Embroidered A-Line Kurta,P...)</span>
+                <span class="method-start">209892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">243400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">add_And_Checkout_Product_Items(denim, Denim Kurtas, Solid A-Line Denim Kurta,Woven Design Straight Kurta)</span>
+                <span class="method-start">277601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">307404 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
